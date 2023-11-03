@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        kubie1:
+          ansible_user: mitch
+          ansible_host: 192.168.30.35
+        kubie2:
+          ansible_user: mitch
+          ansible_host: 192.168.30.36
+        kubie3:
+          ansible_user: mitch
+          ansible_host: 192.168.30.37
